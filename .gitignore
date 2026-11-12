@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+.vite/
+
+# Virtual environments
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+*.egg-info/
+*.egg
+
+# Playwright MCP artifacts
+.playwright-mcp/
+
+# Review / verification screenshots
+*.png
+
+# Local scratch files
+temp/
+
+# Vendored browser drivers (download at runtime, do not commit)
+**/chromedriver-mac-arm64/
+**/chromedriver-linux*/
+**/chromedriver-win*/
+**/chromedriver*.exe
+**/geckodriver*
+# Local course folders used with Course Review (never commit course materials).
+# Any folder inside backend/ other than the app's own is treated as one.
+backend/*/
+!backend/app/
+!backend/scripts/
+!backend/tests/
+.courselens/
+
+# The demo course ships its images
+!examples/**/*.png

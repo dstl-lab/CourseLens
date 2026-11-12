@@ -1,0 +1,17 @@
+{
+  "_help": "Example CourseLens settings for a 15-week semester course. Save as courselens.json in the top folder of your course. Every setting is optional; delete the ones you don't need. See docs/courselens-config.md.",
+  "name": "Intro to Programming (Spring 2027)",
+  "weeks": 15,
+  "extensions": [".ipynb", ".html", ".md", ".pdf", ".tex", ".py"],
+  "exclude": ["data", "**/tests/**", "scratch"],
+  "types": {
+    "homework": ["problem-sets", "ps[0-9]*"],
+    "discussion": ["studios", "studio*"]
+  },
+  "schedule": [
+    { "week": 1, "files": ["lecture01", "lecture02", "studio01"] },
+    { "week": 2, "files": ["lecture03", "lecture04", "ps1"] },
+    { "week": 8, "files": ["exams/midterm/**"] },
+    { "week": 15, "files": ["exams/final/**", "syllabus"] }
+  ]
+}

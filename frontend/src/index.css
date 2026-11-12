@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Light mode (default) ─────────────────────────────────────── */
+:root {
+  --c-bg:            #F8FAFC;
+  --c-bg-panel:      #F1F5F9;
+  --c-bg-surface:    #FFFFFF;
+  --c-bg-elevated:   #E2E8F0;
+  --c-bg-raised:     #CBD5E1;
+  --c-border:        #E2E8F0;
+  --c-border-strong: #CBD5E1;
+  --c-text:          #0F172A;
+  --c-text-soft:     #1E293B;
+  --c-text-muted:    #475569;
+  --c-text-faint:    #64748B;
+  --c-text-dim:      #94A3B8;
+}
+
+/* ─── Dark mode ─────────────────────────────────────────────────── */
+.dark {
+  --c-bg:            #0B1220;
+  --c-bg-panel:      #0F172A;
+  --c-bg-surface:    #0F172A;
+  --c-bg-elevated:   #1E293B;
+  --c-bg-raised:     #334155;
+  --c-border:        #1E293B;
+  --c-border-strong: #334155;
+  --c-text:          #F1F5F9;
+  --c-text-soft:     #CBD5E1;
+  --c-text-muted:    #94A3B8;
+  --c-text-faint:    #64748B;
+  --c-text-dim:      #475569;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--c-bg);
+  color: var(--c-text);
+}
+
+@layer utilities {
+  .cl-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: var(--c-bg-elevated) transparent;
+  }
+
+  .cl-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .cl-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .cl-scrollbar::-webkit-scrollbar-thumb {
+    background-color: var(--c-bg-elevated);
+    border-radius: 9999px;
+  }
+
+  .cl-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: var(--c-bg-raised);
+  }
+}

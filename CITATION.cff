@@ -1,0 +1,59 @@
+cff-version: 1.2.0
+message: "If you use CourseLens in your teaching or research, please cite the paper below."
+title: "CourseLens"
+abstract: >-
+  A review workspace that organizes AI-proposed course updates by the course
+  schedule, links proposed edits to rendered course materials, and shows which
+  files an AI coding agent changed, checked, or never opened.
+type: software
+license: MIT
+authors:
+  - given-names: "Andrew Hudson"
+    family-names: "Yang"
+    email: "any012@ucsd.edu"
+    affiliation: "University of California, San Diego"
+  - given-names: "Susana"
+    family-names: "Haing"
+    email: "shaing@ucsd.edu"
+    affiliation: "University of California, San Diego"
+  - given-names: "Thaarak"
+    family-names: "Sriram"
+    email: "tsriram@ucsd.edu"
+    affiliation: "University of California, San Diego"
+  - given-names: "Chengyun"
+    family-names: "Xu"
+    email: "chx023@ucsd.edu"
+    affiliation: "University of California, San Diego"
+  - given-names: "Zhiqing"
+    family-names: "Wang"
+    email: "zhw131@ucsd.edu"
+    affiliation: "University of California, San Diego"
+  - given-names: "Sam"
+    family-names: "Lau"
+    email: "lau@ucsd.edu"
+    affiliation: "University of California, San Diego"
+repository-code: "https://github.com/dstl-lab/CourseLens"
+keywords:
+  - computing education
+  - AI coding agents
+  - course maintenance
+  - instructor tools
+preferred-citation:
+  type: conference-paper
+  title: "The Edit Is Not the End: CourseLens for Reviewing AI-Proposed Course Updates"
+  authors:
+    - given-names: "Andrew Hudson"
+      family-names: "Yang"
+    - given-names: "Susana"
+      family-names: "Haing"
+    - given-names: "Thaarak"
+      family-names: "Sriram"
+    - given-names: "Chengyun"
+      family-names: "Xu"
+    - given-names: "Zhiqing"
+      family-names: "Wang"
+    - given-names: "Sam"
+      family-names: "Lau"
+  collection-title: "Proceedings of the 58th ACM Technical Symposium on Computer Science Education V.1"
+  year: 2027
+  doi: "10.1145/3857222.3860230"

@@ -1,0 +1,64 @@
+{
+  "_help": "Settings for the CourseLens demo course. See docs/courselens-config.md.",
+  "name": "Intro to Data Programming (demo)",
+  "weeks": 15,
+  "extensions": [
+    ".ipynb",
+    ".html",
+    ".md",
+    ".pdf",
+    ".tex",
+    ".py"
+  ],
+  "types": {
+    "discussion": [
+      "studios",
+      "studio*"
+    ],
+    "reading": [
+      "readings",
+      "reading*"
+    ]
+  },
+  "schedule": [
+    {
+      "week": 1,
+      "files": [
+        "Lecture 01",
+        "reading01"
+      ]
+    },
+    {
+      "week": 2,
+      "files": [
+        "Lecture 02",
+        "a1"
+      ]
+    },
+    {
+      "week": 3,
+      "files": [
+        "Lecture 03",
+        "studio03"
+      ]
+    },
+    {
+      "week": 5,
+      "files": [
+        "a2"
+      ]
+    },
+    {
+      "week": 8,
+      "files": [
+        "exams/midterm/**"
+      ]
+    },
+    {
+      "week": 15,
+      "files": [
+        "final"
+      ]
+    }
+  ]
+}
