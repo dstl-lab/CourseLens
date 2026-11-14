@@ -70,6 +70,7 @@ def notebook_to_html(notebook_path: Path) -> str:
     return body
 
 
+# Modification time and size distinguish cached previews of the same path.
 @lru_cache(maxsize=32)
 def _cached_notebook_html(path: str, mtime_ns: int, size: int) -> str:
     return notebook_to_html(Path(path))
